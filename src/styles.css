@@ -2,6 +2,11 @@
     font-family: sans-serif;
     text-align: center;
   }
+
+  /* Navbar */
+  .navbar {
+      
+  }
   
   img,
 .slide-container {
@@ -40,7 +45,7 @@ svg,
 
 /* About section */
 .about-section {
-    background-color:  #efc050;
+    background-color:  antiquewhite;
     font-family: 'Montserrat', sans-serif;
 }
 

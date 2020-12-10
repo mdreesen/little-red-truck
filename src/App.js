@@ -2,6 +2,7 @@ import React from "react";
 
 // importing components
 import About from './components/About';
+import Navbar from './components/Navbar';
 
 // This is for the picture slider
 import { Fade } from "react-slideshow-image";
