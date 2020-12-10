@@ -7,7 +7,7 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="stephContainer col-sm">
-                        <img className="card-img-top" src={StephImage} alt="Card image cap" />
+                        <img className="stephImage card-img-top" src={StephImage} alt="Card image cap" />
                     </div>
                     <div className="about-text col-sm">
                         <p>Hi There! My name is Stephanie and I am the owner of Little Red Truck Photography.</p>
