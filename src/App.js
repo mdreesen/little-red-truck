@@ -30,16 +30,16 @@ export default function App() {
         <div className="imageContainer">
         <Fade>
           <div className="each-fade">
-            <img src={fadeImages[0]} />
+            <img className="sliderImage" src={fadeImages[0]} />
           </div>
           <div className="each-fade">
-            <img src={fadeImages[1]} />
+            <img className="sliderImage" src={fadeImages[1]} />
           </div>
           <div className="each-fade">
-            <img src={fadeImages[2]} />
+            <img className="sliderImage" src={fadeImages[2]} />
           </div>
           <div className="each-fade">
-            <img src={fadeImages[3]} />
+            <img className="sliderImage" src={fadeImages[3]} />
           </div>
         </Fade>
         </div>

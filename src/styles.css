@@ -4,8 +4,7 @@
   }
   
   img,
-.slide-container,
-.hero {
+.slide-container {
     background-position: relative; /* Center the image*/
     background-size: cover; /* Resize the background image to cover the entire container */
     background-repeat: no-repeat;
@@ -22,6 +21,14 @@ path,
 svg,
 .nav {
     visibility: hidden;
+}
+
+.sliderImage {
+    height: 150%;
+    width: 100%;
+    object-fit: cover;
+    position: sticky;
+    min-height: -webkit-fill-available;
 }
 
 /* This is the image container */
@@ -49,4 +56,8 @@ svg,
 
 .card-img-top {
     border-radius: 50%;
+}
+
+.stephContainer {
+    align-self: center;
 }
