@@ -10,8 +10,8 @@ import "./styles.css";
 import familyPic1 from './images/familyPic1.jpg';
 import familyPic2 from './images/familyPic2.jpg';
 import familyPic3 from './images/familyPic3.jpg';
-import familyPic4 from './images/familyPic4.jpg';
-import ringPic from './images/ringPic.jpg';
+import familyPic4 from './images/familyPic4Edit.jpg';
+import ringPic from './images/ringPicEdit.jpg';
 
 
 const fadeImages = [
@@ -40,6 +40,9 @@ export default function App() {
           </div>
           <div className="each-fade">
             <img className="sliderImage" src={fadeImages[3]} />
+          </div>
+          <div className="each-fade">
+            <img className="sliderImage" src={fadeImages[4]} />
           </div>
         </Fade>
         </div>
