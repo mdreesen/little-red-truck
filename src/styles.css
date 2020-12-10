@@ -27,7 +27,8 @@
     left: -1px;
     z-index: 0;
     margin: 0;
-    background-color: #000;
+    background-color: antiquewhite;
+    border-bottom: none;
 }
 
 /* This is the arrow icons for the slideshow */
@@ -55,7 +56,7 @@ svg,
     */
     height: 900px;
     position: relative;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+    /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); */
 }
 
 /* About section */
@@ -81,8 +82,4 @@ svg,
 
 .stephContainer {
     align-self: center;
-}
-
-.slide-container {
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
 }
