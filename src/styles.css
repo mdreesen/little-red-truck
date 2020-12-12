@@ -18,10 +18,12 @@
 
   .nav-item {
       font-size: 25px;
+      padding: 10px;
       justify-content: space-around;
       color: white;
       padding: none;
       transition: 1s;
+      text-decoration: none;
   }
 
   .nav-item:hover {
@@ -119,18 +121,51 @@ svg,
     align-self: center;
 }
 
+@media only screen and (max-width: 780px) {
+    .logoImage {
+        width: auto;
+        height: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .nav-item {
+        font-size: 15px;
+        text-decoration: none;
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .nav-item:hover {
+        font-size: 15px;
+        color: #E74C3C;
+        text-decoration: none;
+        transition: 2s;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .nav-item {
+        transition: none;
+        text-decoration: none;
+        display: block;
+        margin-right: 0.4em;
+
+    }
+  }
 
 @media only screen and (max-width: 600px) {
     .logoImage {
         width: auto;
-        height: 200px;
+        height: 100px;
     }
   }
 
-  @media only screen and (max-width: 300px) {
+  @media only screen and (max-width: 490px) {
     .logoImage {
         width: auto;
-        height: 150px;
+        height: 50px;
+        transition: none;
     }
   }
   
