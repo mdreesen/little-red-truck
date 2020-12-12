@@ -130,21 +130,21 @@ svg,
 
   @media only screen and (max-width: 760px) {
     .nav-item {
-        font-size: 15px;
+        font-size: 19px;
         text-decoration: none;
     }
   }
 
   @media only screen and (max-width: 760px) {
     .nav-item:hover {
-        font-size: 15px;
+        font-size: 19px;
         color: #E74C3C;
         text-decoration: none;
         transition: 2s;
     }
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 465px) {
     .nav-item {
         transition: none;
         text-decoration: none;
@@ -161,7 +161,7 @@ svg,
     }
   }
 
-  @media only screen and (max-width: 490px) {
+  @media only screen and (max-width: 512px) {
     .logoImage {
         width: auto;
         height: 50px;
