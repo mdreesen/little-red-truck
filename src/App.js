@@ -27,6 +27,7 @@ export default function App() {
     <div className="page">
         <section className="slide-container">
         <div className="imageContainer">
+        <Navbar />
         <Fade>
           <div className="each-fade">
             <img className="sliderImage" src={fadeImages[0]} />

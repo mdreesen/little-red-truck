@@ -8,6 +8,17 @@
     background-color: antiquewhite;
     margin: inherit;
     border-radius: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    background: transparent;
+  }
+
+  .logoImage {
+      width: auto;
+      height: 365px;
   }
   
   img {
