@@ -22,7 +22,7 @@
       justify-content: space-around;
       color: white;
       padding: none;
-      transition: 1s;
+      transition: .5s;
       text-decoration: none;
   }
 
@@ -30,7 +30,7 @@
     font-size: 25px;
     color: #E74C3C;
     text-decoration: none;
-    transition: 2s;
+    transition: .5s;
 }
 
   .navList-container {
