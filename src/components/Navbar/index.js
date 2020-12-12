@@ -5,9 +5,19 @@ function Navbar() {
     return(
         <div className="navbar-container">
             <nav className="navbar">
-                <a className="navbar-brand" href="#">
-                    <img className="logoImage" src={navLogo}></img>
-                </a>
+                        <ul className="navList-container">
+                            <li>
+                                <a className="nav-item" href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a className="navbar-item" href="#">
+                                <img className="logoImage" src={navLogo}></img>
+                                </a>
+                            </li>
+                            <li>
+                                <a className="nav-item" href="#">Contact</a>
+                            </li>
+                        </ul>
             </nav>
         </div>
     );

@@ -16,9 +16,33 @@
     background: transparent;
   }
 
+  .nav-item {
+      font-size: 25px;
+      justify-content: space-around;
+      color: white;
+      padding: none;
+      transition: 1s;
+  }
+
+  .nav-item:hover {
+    font-size: 25px;
+    color: #E74C3C;
+    text-decoration: none;
+    transition: 2s;
+}
+
+  .navList-container {
+    justify-content: space-around;
+    white-space:nowrap;
+  }
+
+  li {
+    display:inline; 
+  }
+
   .logoImage {
       width: auto;
-      height: 365px;
+      height: 200px;
   }
   
   img {
