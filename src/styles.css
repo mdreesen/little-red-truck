@@ -24,6 +24,8 @@
       padding: none;
       transition: .5s;
       text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
   }
 
   .nav-item:hover {
@@ -114,11 +116,14 @@ svg,
 
 .stephImage {
     border-radius: 50%;
-    height: auto;
+    border-radius: 50%;
+    height: 350px;
+    width: auto;
 }
 
 .stephContainer {
     align-self: center;
+    text-align: center;
 }
 
 @media only screen and (max-width: 780px) {
