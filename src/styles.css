@@ -20,7 +20,7 @@
       font-size: 25px;
       padding: 10px;
       justify-content: space-around;
-      color: white;
+      color: #FF5846;
       padding: none;
       transition: .5s;
       text-decoration: none;
@@ -30,7 +30,7 @@
 
   .nav-item:hover {
     font-size: 25px;
-    color: #E74C3C;
+    color: #8B0000;
     text-decoration: none;
     transition: .5s;
 }
