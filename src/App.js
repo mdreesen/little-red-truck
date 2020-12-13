@@ -1,53 +1,25 @@
 import React from "react";
+import { Route } from 'react-router-dom';
+import './index.css';
+import './styles.css';
 
 // importing components
-import About from './components/About';
 import Navbar from './components/Navbar';
-
-// This is for the picture slider
-import { Fade } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
-import "./styles.css";
-import familyPic1 from './images/familyPic1.jpg';
-import familyPic2 from './images/familyPic2.jpg';
-import familyPic3 from './images/familyPic3.jpg';
-import familyPic4 from './images/familyPic4.jpg';
-
-
-
-const fadeImages = [
-  familyPic1,
-  familyPic2,
-  familyPic3,
-  familyPic4
-];
+import Home from './components/Home'
+import Contact from './components/Contact';
+import Price from './components/Pricing';
+import Contract from './components/Contact';
 
 export default function App() {
   return (
-    <div className="page">
-        <section className="slide-container">
-        <div className="imageContainer">
-        <Navbar />
-        <Fade>
-          <div className="each-fade">
-            <img className="sliderImage" src={fadeImages[0]} />
-          </div>
-          <div className="each-fade">
-            <img className="sliderImage" src={fadeImages[1]} />
-          </div>
-          <div className="each-fade">
-            <img className="sliderImage" src={fadeImages[2]} />
-          </div>
-          <div className="each-fade">
-            <img className="sliderImage" src={fadeImages[3]} />
-          </div>
-
-        </Fade>
-        </div>
-      </section>
-      <section>
-       <About />
-      </section>
+      <div>
+      <Navbar />
+        <section>
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/contact' component={Contact}/>
+          <Route exact path='/pricing' component={Price}/>
+          <Route exact path='/contract' component={Contract}/>
+        </section>
     </div>
   );
 }
