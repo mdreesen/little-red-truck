@@ -7,13 +7,13 @@ function Navbar() {
             <nav className="navbar">
                         <ul className="navList-container">
                             <li>
-                                <a className="nav-item" href="/contact">Contact</a>
+                                <a className="nav-item" href="/pricing">Pricing</a>
                             </li>
                             <li>
                             <a className="nav-item" href="/"><img className="logoImage" src={navLogo}></img></a>
                             </li>
                             <li>
-                                <a className="nav-item" href="/pricing">Pricing</a>
+                                <a className="nav-item" href="/contact">Contact</a>
                             </li>
                         </ul>
             </nav>
