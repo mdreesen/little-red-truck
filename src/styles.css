@@ -126,16 +126,20 @@ svg,
     text-align: center;
 }
 
+.row {
+  justify-content: center;
+}
+
 /* Pricing Page */
 .card-deck {
   justify-content: center;
 }
 
 .card-img-top {
-  height: 150%;
+  height: 80%;
   width: 100%;
   object-fit: cover;
-  position: sticky;
+  position: relative;
 }
 
 @media only screen and (max-width: 780px) {
