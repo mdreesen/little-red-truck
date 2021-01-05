@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home'
 import Contact from './components/Contact';
 import Price from './components/Pricing';
-import Contract from './components/Contact';
+import Contract from './components/Contract';
 
 export default function App() {
   return (

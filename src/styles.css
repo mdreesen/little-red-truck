@@ -135,11 +135,28 @@ svg,
   justify-content: center;
 }
 
+.card {
+  background: transparent;
+  border: none;
+  padding-bottom: 30px
+}
+
+.card-contact {
+  padding-bottom: 100%;
+}
+
 .card-img-top {
-  height: 80%;
+  height: 70%;
   width: 100%;
   object-fit: cover;
   position: relative;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.7);
+
+}
+
+.price-container {
+  padding-top: 25rem;
+  background-color: antiquewhite;
 }
 
 @media only screen and (max-width: 780px) {

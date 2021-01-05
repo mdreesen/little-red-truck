@@ -8,6 +8,7 @@ import familyPic from '../../images/familyPricing.jpg';
 function Price() {
     return (
         <section>
+        <div className="price-container">
         <div className="row"></div>
             <div className="card-deck">
             <div className="row">
@@ -57,6 +58,7 @@ function Price() {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
