@@ -1,15 +1,22 @@
 import React from "react";
 
 function Contact() {
+
+    const icon = {
+        instagram: 'https://www.instagram.com/littleredtruckphotography/',
+        facebook: 'https://www.facebook.com/Littleredtruckphotography/'
+    }
+
     return(
         <section>
         <div className="price-container">
         <div className="card-contact text-center">
             <div className="card-body">
-                <h4>Phone: 123-456-7890</h4>
-                <h4>email: email@emailthis.com</h4>
-                <h4>Instagram: linkToInstagram</h4>
-                <a href="mailto: mdreesen90@gmail.com" className="btn btn-primary">Email</a>
+                <div className="icon-container">
+                    <a href={icon.instagram}><i className="iconPic fab fa-instagram fa-4x" /></a>
+                    <a href={icon.facebook}><i className="iconPic fab fa-facebook-square fa-4x" /></a>
+                    <a href="mailto: mdreesen90@gmail.com"><i className="iconPic fas fa-envelope-open-text fa-4x" /></a>
+                </div>
             </div>
         </div>
 

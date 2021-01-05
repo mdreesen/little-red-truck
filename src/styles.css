@@ -159,6 +159,12 @@ svg,
   background-color: antiquewhite;
 }
 
+/* contact page */
+.iconPic {
+  justify-content: space-around;
+  padding: 25px;
+}
+
 @media only screen and (max-width: 780px) {
     .logoImage {
         width: auto;

@@ -1,9 +1,10 @@
 import React from 'react';
 
-import engagementPic from '../../images/ringPic.jpg';
+import weddingPic from '../../images/ringPic.jpg';
 import fresh48 from '../../images/elliot.jpg';
-import birthPic from '../../images/familyPic5.jpg';
+import engagementPic from '../../images/familyPic5.jpg';
 import familyPic from '../../images/familyPricing.jpg';
+import birthPic from '../../images/birthPic.jpg';
 
 function Price() {
     return (
@@ -22,7 +23,7 @@ function Price() {
                     </div>
                 </div>
                 <div className="card col-md-5 mt-3">
-                    <img className="card-img-top" src="..." alt="Card image cap" />
+                    <img className="card-img-top" src={weddingPic} alt="Card image cap" />
                     <div className="card-body">
                     <h5 className="card-title">Wedding</h5>
                     <p className="card-text">Begins at $2300</p>
