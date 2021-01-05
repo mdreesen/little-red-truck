@@ -15,7 +15,7 @@ function Contact() {
                 <div className="icon-container">
                     <a href={icon.instagram}><i className="iconPic fab fa-instagram fa-4x" /></a>
                     <a href={icon.facebook}><i className="iconPic fab fa-facebook-square fa-4x" /></a>
-                    <a href="mailto: mdreesen90@gmail.com"><i className="iconPic fas fa-envelope-open-text fa-4x" /></a>
+                    <a href="mailto: stephaniemichelle01@yahoo.com"><i className="iconPic fas fa-envelope-open-text fa-4x" /></a>
                 </div>
             </div>
         </div>
