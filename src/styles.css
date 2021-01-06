@@ -198,6 +198,14 @@ svg,
   transition: .5s;
 }
 
+.social-container {
+  padding-top: 5rem;
+}
+
+.email-container {
+  padding-top: 5rem;
+}
+
 @media only screen and (max-width: 1400px) {
   .card-image-top {
     height: 60%;
