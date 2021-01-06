@@ -155,13 +155,47 @@ svg,
 
 .price-container {
   padding-top: 25rem;
-  background-color: antiquewhite;
+  background-color: #900603;
+  color: white;
 }
 
 /* contact page */
 .iconPic {
   justify-content: space-around;
   padding: 25px;
+}
+
+.fa-instagram {
+  color: white;
+  transition: .5s;
+}
+
+.fa-facebook-square {
+  color: white;
+  transition: .5s;
+}
+
+.fa-envelope-open-text {
+  color: white;
+  transition: .5s;
+}
+
+.fa-instagram:hover {
+  color: black;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.fa-facebook-square:hover {
+  color: black;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.fa-envelope-open-text:hover {
+  color: black;
+  text-decoration: none;
+  transition: .5s;
 }
 
 @media only screen and (max-width: 1400px) {
