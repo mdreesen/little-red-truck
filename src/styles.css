@@ -107,6 +107,7 @@ svg,
 .about-text {
     text-align: center;
     font-weight: 500;
+    margin: auto;
 }
 
 .container {
@@ -116,7 +117,7 @@ svg,
 
 .stephImage {
     border-radius: 50%;
-    height: 350px;
+    height: 250px;
     width: auto;
 }
 
