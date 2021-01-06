@@ -5,6 +5,7 @@ import fresh48 from '../../images/elliot.jpg';
 import engagementPic from '../../images/familyPic5.jpg';
 import familyPic from '../../images/familyPricing.jpg';
 import birthPic from '../../images/birthPic.jpg';
+import fresh48Two from '../../images/Fresh48Two.jpg';
 
 function Price() {
     return (
@@ -17,7 +18,7 @@ function Price() {
                     <img className="card-img-top" src={engagementPic} alt="Card image cap" />
                     <div className="card-body">
                     <h5 className="card-title">engagements</h5>
-                    <p className="card-text">Begins at $350</p>
+                    <p className="card-text">$350</p>
                     <p className="card-text">45-60 min session - One to two outfit changes</p>
                     <p className="card-text">20-25 edited photos, digital images & online gallery</p>
                     </div>
@@ -26,8 +27,8 @@ function Price() {
                     <img className="card-img-top" src={weddingPic} alt="Card image cap" />
                     <div className="card-body">
                     <h5 className="card-title">Wedding</h5>
-                    <p className="card-text">Begins at $2300</p>
-                    <p className="card-text">4-6 hours of coverage</p>
+                    <p className="card-text">Starts at $2300</p>
+                    <p className="card-text">Contact for packages & includes online gallery</p>
                     </div>
                 </div>
             </div>
@@ -37,7 +38,7 @@ function Price() {
                         <div className="card-body">
                         <h5 className="card-title">Birth</h5>
                         <p className="card-text">$950</p>
-                        <p className="card-text">4-6 hours of coverage</p>
+                        <p className="card-text">Includes coverage of birth & online gallery</p>
                         </div>
                     </div>
                     <div className="card col-md-5 mt-3">
@@ -51,7 +52,7 @@ function Price() {
                 </div>
                 <div className="row">
                 <div className="card col-md-5 mt-3">
-                        <img className="card-img-top" src={fresh48} alt="Card image cap" />
+                        <img className="card-img-top" src={fresh48Two} alt="Card image cap" />
                         <div className="card-body">
                         <h5 className="card-title">Fresh 48</h5>
                         <p className="card-text">$250</p>
