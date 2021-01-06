@@ -20,7 +20,7 @@ function Contact() {
                         <a href={icon.facebook}><i className="iconPic fab fa-facebook-square fa-4x" /></a>
                     </div>
                     <div className="email-container">
-                        <h3>Email LRT Photography</h3>
+                        <h3>Email Little Red Truck Photography</h3>
                         <a href="mailto: stephaniemichelle01@yahoo.com"><i className="iconPic fas fa-envelope-open-text fa-4x" /></a>
                     </div>
                 </div>

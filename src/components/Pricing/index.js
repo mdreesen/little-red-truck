@@ -27,7 +27,7 @@ function Price() {
                     <img className="card-img-top" src={weddingPic} alt="Card image cap" />
                     <div className="card-body">
                     <h5 className="card-title">Wedding</h5>
-                    <p className="card-text">Starts at $2300</p>
+                    <p className="card-text">Starting at $2300</p>
                     <p className="card-text">Contact for packages & includes online gallery</p>
                     </div>
                 </div>
