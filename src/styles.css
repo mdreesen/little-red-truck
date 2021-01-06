@@ -137,7 +137,7 @@ svg,
 .card {
   background: transparent;
   border: none;
-  padding-bottom: 30px
+  /*padding-bottom: 5px */
 }
 
 .card-contact {
